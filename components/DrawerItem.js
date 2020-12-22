@@ -28,6 +28,15 @@ class DrawerItem extends React.Component {
             color={focused ? "white" : argonTheme.COLORS.ERROR}
           />
         );
+      case "Products":
+          return (
+            <Icon
+              name="map-big"
+              family="ArgonExtra"
+              size={14}
+              color={focused ? "white" : argonTheme.COLORS.ERROR}
+            />
+          );
       case "Articles":
         return (
           <Icon

@@ -18,6 +18,7 @@ function CustomDrawerContent({ drawerPosition, navigation, profile, focused, sta
     "Account",
     "Elements",
     "Articles",
+    "Products"
   ];
   return (
     <Block
@@ -41,7 +42,7 @@ function CustomDrawerContent({ drawerPosition, navigation, profile, focused, sta
             })}
             <Block flex style={{ marginTop: 24, marginVertical: 8, paddingHorizontal: 8 }}>
               <Block style={{ borderColor: "rgba(0,0,0,0.2)", width: '100%', borderWidth: StyleSheet.hairlineWidth }}/>
-              <Text color="#8898AA" style={{ marginTop: 16, marginLeft: 8 }}>DOCUMENTATION</Text>
+              <Text color="#8898AA" style={{ marginTop: 16, marginLeft: 8 }}>SOPORTE</Text>
             </Block>
             <DrawerCustomItem title="Getting Started" navigation={navigation} />
         </ScrollView>
@@ -49,7 +50,6 @@ function CustomDrawerContent({ drawerPosition, navigation, profile, focused, sta
     </Block>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
